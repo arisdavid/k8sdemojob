@@ -1,19 +1,19 @@
 # We'll never use this.
-# This is just use as a template to implement task_executor.py
+# This is our guide template to implement task_executor.py
 ---
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: my-job
+  name: my-job-id
   namespace: jobdemonamespace
   labels:
-    job_name: my-job
+    job_name: my-job-id
 spec:
   template:
     metadata:
       labels:
-        app: my-job-pod
-      name: my-job-pod
+        app: my-job-pod-id
+      name: my-job-pod-id
     spec:
       containers:
         - image: "shuffler:latest"
