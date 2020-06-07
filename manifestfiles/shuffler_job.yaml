@@ -1,0 +1,28 @@
+# We'll never use this.
+# This is just use as a template to implement task_executor.py
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: my-job
+  namespace: jobdemonamespace
+  labels:
+    job_name: my-job
+spec:
+  template:
+    metadata:
+      labels:
+        app: my-job-pod
+      name: my-job-pod
+    spec:
+      containers:
+        - image: "shuffler:latest"
+          imagePullPolicy: Never
+          name: "shuffler"
+          command:
+            - python3
+            - -u
+            - ./shuffler.py
+          args:
+            - "Kubernetes"
+      restartPolicy: Never
