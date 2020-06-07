@@ -20,7 +20,7 @@ python3 -u task_executor.py <input_string>
 #### Screenshots
 
 #### Commands
-![Commands](https://github.com/arisdavid/k8sdemojob/blob/master/screenshots/commands.png)
+![Commands](https://github.com/arisdavid/k8sdemojob/blob/master/screenshots/commands.PNG)
 
 #### YAML to Python Equivalent
 ![YAMLTOPYTHON](https://github.com/arisdavid/k8sdemojob/blob/master/screenshots/yaml_to_python.png)
