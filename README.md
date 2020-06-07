@@ -17,3 +17,10 @@ docker build -t shuffler:latest -f shuffler/Dockerfile .
 python3 -u task_executor.py <input_string>
 ```
 
+#### Screenshots
+
+#### Commands
+![Commands](https://github.com/arisdavid/k8sdemojob/blob/master/screenshots/commands.png)
+
+#### YAML to Python Equivalent
+![YAMLTOPYTHON](https://github.com/arisdavid/k8sdemojob/blob/master/screenshots/yaml_to_python.png)
