@@ -8,8 +8,12 @@
 * For Mac users using Minikube is highly recommended 
 
 ### Build a docker image
+```
 docker build -t shuffler:latest -f shuffler/Dockerfile .
+```
 
 ### Run the program
+```
 python3 -u task_executor.py <input_string>
+```
 
